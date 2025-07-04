@@ -1,0 +1,36 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: aliceblue;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 10em;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card h2 {
+    margin: 2px;
+}
+
+button {
+    margin-top: 10px;
+    border: none;
+    background-color: aquamarine;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blueviolet;
+}

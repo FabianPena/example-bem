@@ -6,3 +6,18 @@
     color: aqua;
     border-bottom: 2px solid aqua;
 }
+
+.hero__titulo {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.hero__texto {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.producto {
+    border: 1px solid #ddd;
+}
+

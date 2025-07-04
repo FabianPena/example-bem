@@ -2,8 +2,34 @@
     background-color: #f8f8f8;
     padding: 1rem 2rem;
 }
+
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero {
+    background-color: blueviolet;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.productos__grid,
+.categorias__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.categorias {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
 }
